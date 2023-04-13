@@ -1,0 +1,30 @@
+
+ LVM Configuration: 
+
+
+
+
+ Partition Configuration: 
+
+
+Disk /dev/sda: 50 GiB, 53687091200 bytes, 104857600 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x433922db
+
+Device     Boot    Start      End  Sectors  Size Id Type
+/dev/sda1  *        2048  2099199  2097152    1G 83 Linux
+/dev/sda2        2099200 10328063  8228864  3.9G 82 Linux swap / Solaris
+/dev/sda3       10328064 83728383 73400320   35G 83 Linux
+
+
+
+
+ Mounted Filesystems: 
+
+
+Filesystem     Type      Size  Used Avail Use% Mounted on
+/dev/sda3      ext4       35G  7.5G   25G  23% /
+/dev/sda1      ext4      976M  148M  761M  17% /boot
